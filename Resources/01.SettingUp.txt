@@ -15,3 +15,12 @@
 • Starting project
     - In Puddle dir
     -> django-admin startproject puddle
+
+• Running project
+    - In Puddle > puddle dir
+    -> python manage.py runserver
+
+
+• asgi.py and wsgi.py [puddle/puddle/...]
+    -> These are entry points for the web server.
+    -> Used when deploying project into live server

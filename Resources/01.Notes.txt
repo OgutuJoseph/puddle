@@ -1,0 +1,17 @@
+• Creating a virtual environment
+    - In Puddle dir
+    -> python3 -m venv venv !!Fails!!
+    -> python -m venv venv
+
+• Activating a virtual environment
+    - In Puddle dir
+    -> source env/bin/activate !!Fails!!
+    -> source venv/Scripts/activate
+
+• Installing Django
+    - In Puddle dir
+    -> pip install django
+
+• Starting project
+    - In Puddle dir
+    -> django-admin startproject puddle

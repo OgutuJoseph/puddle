@@ -1,0 +1,19 @@
+February 1 2023
+URL : https://www.youtube.com/watch?v=ZxMB6Njs3ck -- Learn Django by Building an Online Marketplace – Python Tutorial for Beginners
+00.00.00
+
+0.00.00 Demo
+0.02.02 Introduction
+0.02.20 Setting up
+0.06.00 First app
+0.24.51 Items
+0.44.30 Item detail
+0.55.56 Signing up
+1.10.06 Logging in
+1.15.44 Adding items
+1.28.25 Dashboard
+1.32.36 Delete items
+1.36.58 Edit items
+1.40.01 Searching
+1.53.43 Communication
+2.23.00 Summarycle

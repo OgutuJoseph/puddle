@@ -1,0 +1,12 @@
+!! ACTIVATE VENV IN ALL TERMINALS WHERE NECESSARY: B/R, DevWorks.. !!
+
+• Starting app
+    - In Puddle > puddle dir
+    -> python manage.py startapp core
+
+• Files in Puddle > puddle/core
+    • admin.py  - where we register the database models inside the django-admin interface
+    • apps.py   - configuration file just for this app
+    • models.py - where we define database models
+    • tests.py  - where we can run automated tests
+    • views     - where we define views for the app

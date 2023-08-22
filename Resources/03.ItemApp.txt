@@ -11,3 +11,7 @@
 • Running Migrations
     - In Puddle > puddle dir
     -> python manage.py migrate
+
+• Create SU from script
+    - In Puddle > puddle dir
+    -> python manage.py createsuperuser

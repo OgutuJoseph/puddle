@@ -17,7 +17,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import include, path
 # Core App views
-from core.views import index, contact
+# from core.views import index, contact
 
 # to allow media to be picked on frontend
 from django.conf import settings
@@ -25,8 +25,9 @@ from django.conf.urls.static import static
 
 urlpatterns = [
     # Core URLS
-    path('', index, name='index'),
-    path('contact/', contact, name='contact'),
+    # path('', index, name='index'),
+    # path('contact/', contact, name='contact'),
+    path('', include('core.urls')),
 
     # Item URLS
     path('items/', include('item.urls')),

@@ -17,3 +17,10 @@ URL : https://www.youtube.com/watch?v=ZxMB6Njs3ck -- Learn Django by Building an
 1.40.01 Searching
 1.53.43 Communication
 2.23.00 Summarycle
+
+
+############ Installed Packages #########
+03.Core.App
+• pillow (python library for handling images)
+    - In Puddle > puddle dir
+    -> pip install pillow

@@ -1,6 +1,6 @@
 February 1 2023
 URL : https://www.youtube.com/watch?v=ZxMB6Njs3ck -- Learn Django by Building an Online Marketplace – Python Tutorial for Beginners
-00.55.58
+01.09.34
 
 0.00.00 Demo
 0.02.02 Introduction

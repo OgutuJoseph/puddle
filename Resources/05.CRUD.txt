@@ -1,0 +1,6 @@
+!! ACTIVATE VENV IN ALL TERMINALS WHERE NECESSARY: B/R, DevWorks.. !!
+
+• Starting app
+    - In Puddle > puddle dir
+    -> python manage.py startapp dashboard
+

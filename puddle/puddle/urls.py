@@ -35,6 +35,9 @@ urlpatterns = [
     # Dashboard URLS
     path('dashboard/', include('dashboard.urls')),
 
+    # Conversation URLS
+    path('inbox/', include('conversation.urls')),
+
     # Admin URLS
     path('admin/', admin.site.urls),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

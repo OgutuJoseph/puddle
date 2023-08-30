@@ -3,3 +3,11 @@
 • Starting app
     - In Puddle > puddle dir
     -> python manage.py startapp conversation
+
+• Creating Migrations
+    - In Puddle > puddle dir
+    -> python manage.py makemigrations
+
+• Running Migrations
+    - In Puddle > puddle dir
+    -> python manage.py migrate

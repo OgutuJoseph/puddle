@@ -8,7 +8,7 @@
 <!-- {{ conversation.messages.all }} -->
 <div class="space-y-6">
     {% for message in conversation.messages.all %}
-        <div class="p-6 flex bg-gray-100 rounded-xl"> 
+        <div class="p-6 flex {% if message.created_by == request.user %} bg-blue-100 {% else %} bg-gray-100 {% endif %} rounded-xl"> 
             <div>
                 <p class="mb-4">
                     <strong>{{ message.created_by.username }}</strong>
@@ -22,4 +22,10 @@
         </div>
     {% endfor %}
 </div>
+<form method="POST" action="." class="mt-6">
+    {% csrf_token %}
+
+    {{ form.as_p }}
+    <button class="py-4 px-8 text-lg bg-cyan-500 hover:bg-cyan-700 rounded-xl text-white">Reply</button>
+</form>
 {% endblock %}

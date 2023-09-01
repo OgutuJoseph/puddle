@@ -16,6 +16,7 @@ def new_conversation(request, item_pk):
 
     if conversations:
         pass # to view later
+        # return redirect('conversation:detail', pk=conversations.first().id)
 
     if request.method == 'POST':
         form = ConversationMessageForm(request.POST)

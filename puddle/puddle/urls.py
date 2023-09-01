@@ -36,7 +36,7 @@ urlpatterns = [
     path('dashboard/', include('dashboard.urls')),
 
     # Conversation URLS
-    # path('inbox/', include('conversation.urls')),
+    path('inbox/', include('conversation.urls')),
 
     # Admin URLS
     path('admin/', admin.site.urls),
